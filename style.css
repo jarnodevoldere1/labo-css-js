@@ -103,12 +103,21 @@ header .content {
 }
 
 /*teaser*/
+.teasers{
+    display: flex;
+    flex-direction: column;
+}
 .teasers h2 {
     text-transform: uppercase;
 }
 
 .teasers section {
     margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+.teasers .overlay-link{
+
 }
 
 /*limited*/
